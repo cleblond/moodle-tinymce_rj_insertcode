@@ -55,7 +55,7 @@ $useClasses		= getPostedValue('useClasses');
 
 //===
 // initialize GeSHi
-$geshi =& new GeSHi($codeContent, $codeType);
+$geshi = new GeSHi($codeContent, $codeType);
 
 //===
 // Tell GeSHi to use stylesheets. Note that this should be the fist thing
